@@ -9,8 +9,9 @@ function App() {
         image: 'avante.png',
         model: 'avante',
         color: 'blue',
+        colorKr: '파랑',
         year: 2024,
-        comment: ''
+        comment: '옵션을 변경해 보세요.'
     });
 
     // 중첩 배열을 사용하여 Map 구조 만들기
@@ -20,10 +21,17 @@ function App() {
         ['grandeur', '그랜져']
     ]);
 
+    const colorList = new Map([
+        ['yellow', '노랑'],
+        ['blue', '파랑'],
+        ['red', '빨강'],
+        ['green', '녹색']
+    ]);
+
     const ChangeTest = (event) => {
         const targetId = event.target.id;
 
-        // targetValue에는 점(dot)과 확장자 이름을 제외한 순수 파일명이 들어 있습니다.
+        // targetValue에는 점(dedot)과 확장자 이름을 제외한 순수 파일명이 들어 있습니다.
         const targetValue = event.target.value;
         console.log(targetId + '/' + targetValue);
 
@@ -32,7 +40,7 @@ function App() {
             setCar({...car, model: carList.get(targetValue), image: `${targetValue}.png`})
 
         } else if (targetId === 'color') { /* 색상 변경 */
-            setCar({...car, color: targetValue});
+            setCar({...car, colorKr: colorList.get(targetValue), color: targetValue});
 
         } else if (targetId === 'year') { /* 연도 변경 */
             console.log(typeof targetValue);
@@ -91,7 +99,7 @@ function App() {
 
             {/* 바깥 중괄호 : JSX 표현식, 안쪽 중괄호 : JavaScript Object */}
             <p style={{color: car.color}}>
-                {car.color} 색상의 {car.year} 년산 {car.model} 모델<br />
+                {car.colorKr} 색상의 {car.year} 년산 {car.model} 모델<br />
                 {car.comment}
             </p>
             <br />
