@@ -6,7 +6,7 @@ import './index.css';
 
 // ch03.react_component 폴더에 들어 있는 App_component01 파일을 불러오겠습니다.
 // import App from './ch03.react_component/App_component01';
-import App from './ch05.react_hooks/App_useState_03';
+import App from './ch05.react_hooks/ComboEventTest_practice';
 
 import reportWebVitals from './reportWebVitals';
 
