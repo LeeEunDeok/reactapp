@@ -1,0 +1,23 @@
+* {
+    margin: 10px;
+}
+
+.table_padding {
+    padding: 10px;
+}
+
+.left {
+    width: 15%;
+    text-align: center;
+}
+
+.middle {
+    width: 25%;
+    text-align: center;
+}
+
+.description {
+    margin: 10px;
+    padding: 7px;
+    border: 1px dashed red;
+}

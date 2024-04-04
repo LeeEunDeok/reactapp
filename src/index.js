@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import App from './App';
 
 // ch03.react_component 폴더에 들어 있는 App_component01 파일을 불러오겠습니다.
 // import App from './ch03.react_component/App_component01';
-import App from './ch05.react_hooks/ComboEventTest_practice';
+import App from './ch06.member_crud/members03/App';
 
 import reportWebVitals from './reportWebVitals';
 
