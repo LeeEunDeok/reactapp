@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // ch03.react_component 폴더에 들어 있는 App_component01 파일을 불러오겠습니다.
 // import App from './ch03.react_component/App_component01';
-import App from './ch06.bootstrap-exam/coffee_bread_06/App';
+import App from './ch07.react_with_spring/GetSpring01';
 
 import reportWebVitals from './reportWebVitals';
 
