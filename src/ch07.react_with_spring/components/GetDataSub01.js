@@ -1,5 +1,3 @@
-import '../css/App.css';
-
 import Table from 'react-bootstrap/Table';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
