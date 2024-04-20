@@ -7,7 +7,7 @@ import BarChart from './components/BarChart03';
 import PieChart from './components/PieChart03';
 
 // Mission!!!
-// 임의의 행을 클릭했을 때, 해당 학생의 국영수 과목을 파이 그래프로 그려 보세요.
+// 임의의 행을 클릭했을 때, 해당 학생의 국영수 과목을 파이 그래프로 그려 보세요. -- 진행중
 // 과목이 하나 더 추가되었다고 가정하고, 코드를 수정해 보세요. -- 해결
 
 function App() {

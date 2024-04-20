@@ -8,7 +8,7 @@ function App(props) {
 
     useEffect(() => {
         if (!rcvData || rcvData.length === 0) return;
-
+        
         const clickedRow = rcvData.find(one => one.id === id4Pie);
         console.log('id4Pie : ' + id4Pie)
         console.log('clickedRow : ' + clickedRow.id)
